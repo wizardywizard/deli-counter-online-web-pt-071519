@@ -12,7 +12,9 @@ def line(names)
   end
 end
 
-
+def take_a_number(names)
+  
+end
 
 
 
