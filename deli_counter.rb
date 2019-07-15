@@ -12,7 +12,7 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  line.each_with_index do |person, num|
+  line.each do |person, num|
     puts "Welcome, #{person}. You are number #{num + 1} in line."
   end
 end
