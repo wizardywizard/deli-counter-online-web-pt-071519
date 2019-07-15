@@ -12,7 +12,7 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-    puts "Welcome, #{person}. You are number #{0 + 1} in line."
+    puts "Welcome, #{name}. You are number #{0 + 1} in line."
 end
 
 
