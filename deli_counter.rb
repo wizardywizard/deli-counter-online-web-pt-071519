@@ -14,7 +14,6 @@ def take_a_number(line, name)
   line.push(name)
   num = 0
     puts "Welcome, #{person}. You are number #{num + 1} in line."
-  end
 end
 
 
