@@ -1,5 +1,3 @@
-katz_deli = []
-
 def line(names)
   if names.length > 0
     line = "The line is currently:"
