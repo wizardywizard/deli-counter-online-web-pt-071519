@@ -12,6 +12,8 @@ end
 
 def take_a_number(line, name)
   line << name
+  line.each_with_index do | person, num|
+  end
 end
 
 
