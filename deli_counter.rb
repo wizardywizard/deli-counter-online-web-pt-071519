@@ -3,6 +3,7 @@ katz_deli = []
 def line(names)
   if names.length > 0
     names.each_with_index do |person, num|
+      line = 
       puts "The line is currently: " + "#{num + 1}. #{person}"
     end
   else
