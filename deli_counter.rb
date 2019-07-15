@@ -6,6 +6,7 @@ def line(names)
     names.each_with_index do |person, num|
       line << "#{num + 1}. #{person}"
     end
+    puts line
   else
     puts "The line is currently empty."
   end
