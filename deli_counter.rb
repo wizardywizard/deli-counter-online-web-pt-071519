@@ -2,8 +2,8 @@ katz_deli = []
 
 def line(names)
   if names.length > 0
+    
     names.each_with_index do |person, num|
-      line = "The line is currently: "
       line << "#{num + 1}. #{person}"
     end
   else
