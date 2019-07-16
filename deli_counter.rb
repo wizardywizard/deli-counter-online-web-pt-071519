@@ -18,7 +18,7 @@ end
 def now_serving(line)
   first = "currently serving"
   if line.length > 0
-    
+    line.shift
   else  
      puts "There is nobody waiting to be served!"
   end 
