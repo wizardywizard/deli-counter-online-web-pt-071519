@@ -20,6 +20,7 @@ def now_serving(line)
     line.each do |name|
       name.shift
       "currently serving #{}."
+    end
   else  
      puts "There is nobody waiting to be served!"
   end 
